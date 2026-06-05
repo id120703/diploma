@@ -1,0 +1,110 @@
+{
+  "approved_questions": [
+    {
+      "type": "mcq",
+      "stem": "Какой из перечисленных акторов угроз относится к категории \"script kiddie\"?",
+      "options": [
+        "APT",
+        "Hacktivist",
+        "Script kiddie",
+        "Инсайдер"
+      ],
+      "correct_answer": "Script kiddie",
+      "explanation": "Script kiddie – это пользователь, использующий готовые инструменты без глубоких знаний.",
+      "difficulty": 1
+    },
+    {
+      "type": "mcq",
+      "stem": "В каком этапе жизненного цикла уязвимости осуществляется разработка и распространение патча?",
+      "options": [
+        "Обнаружение",
+        "Эксплуатация",
+        "Патчинг",
+        "Управление нулевыми днями"
+      ],
+      "correct_answer": "Патчинг",
+      "explanation": "Патчинг – этап, когда создается и распространяется исправление.",
+      "difficulty": 2
+    },
+    {
+      "type": "true_false",
+      "stem": "Фишинг является примером социальной инженерии, которая может обойти технические меры безопасности.",
+      "options": null,
+      "correct_answer": "True",
+      "explanation": "Фишинг использует психологические трюки, чтобы обмануть пользователя.",
+      "difficulty": 1
+    },
+    {
+      "type": "mcq",
+      "stem": "Какой из компонентов Zero Trust отвечает за динамическое управление доступом к сетевым ресурсам?",
+      "options": [
+        "Микросегментация",
+        "SDP",
+        "SASE",
+        "Все вышеперечисленное"
+      ],
+      "correct_answer": "SDP",
+      "explanation": "SDP (Software-Defined Perimeter) обеспечивает динамическое управление доступом.",
+      "difficulty": 3
+    }
+  ],
+  "total_generated": 5,
+  "validation_summary": [
+    {
+      "status": "approved",
+      "issues": [],
+      "suggestions": []
+    },
+    {
+      "status": "approved",
+      "issues": [],
+      "suggestions": []
+    },
+    {
+      "status": "revise",
+      "issues": [
+        "Ответ не соответствует формулировке вопроса: вопрос задаёт аспект хранения ключей, а правильный ответ «Все перечисленное» включает и другие аспекты."
+      ],
+      "suggestions": [
+        "Изменить правильный ответ на «Хранение ключей» или уточнить вопрос, чтобы он включал все перечисленные аспекты криптографии."
+      ]
+    },
+    {
+      "status": "approved",
+      "issues": [],
+      "suggestions": []
+    },
+    {
+      "status": "approved",
+      "issues": [],
+      "suggestions": []
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Классификация акторов угроз (script kiddie, hacktivist, APT, инсайдер)",
+      "bloom_level": "understand",
+      "weight": 0.2
+    },
+    {
+      "name": "Жизненный цикл уязвимости и управление нулевыми днями",
+      "bloom_level": "analyze",
+      "weight": 0.2
+    },
+    {
+      "name": "Проблемы реализации криптографии (генерация ключей, хранение, режимы шифрования)",
+      "bloom_level": "apply",
+      "weight": 0.2
+    },
+    {
+      "name": "Социальная инженерия и фишинг как слабый элемент системы",
+      "bloom_level": "understand",
+      "weight": 0.2
+    },
+    {
+      "name": "Архитектура Zero Trust и её компоненты (микросегментация, SDP, SASE)",
+      "bloom_level": "evaluate",
+      "weight": 0.2
+    }
+  ]
+}
